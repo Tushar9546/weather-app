@@ -1,0 +1,120 @@
+body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    margin: 0;
+    background-color: #222;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1100);
+    background-position: center;
+    background-size: cover;
+}
+.card {
+    background: #000000d0 ;
+    color:white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+.search {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 0px;
+}
+button{
+    padding:10px;
+    width:100px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background: #7c7c7c2b;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+input.search-bar {
+    outline: none;
+    border: none;
+    padding:1em;
+    border-radius: 18px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 80%;
+    width:100%;
+}
+h1.temp{
+    margin-bottom: 10px;
+    margin: 0px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.description{
+    text-transform: capitalize;
+    margin-top: 5rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 2rem;
+    width: 90%;
+}
+
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px;
+     /* margin-left: 590px; */
+     /* margin-top: -300px; */
+    display: block;
+}
+
+@media screen and (max-width: 640px) {
+
+    body {
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        height: 130vh;
+        margin: 0;
+        background-color: #222;
+        font-family: 'Open Sans', sans-serif;
+        background-image: url(https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1100);
+        background-position: center;
+        background-size: cover;
+    }
+    .card {
+        background: #000000d0 ;
+        color:white;
+        padding: 1em;
+        border-radius: 30px;
+        width: 90%;
+        max-width: 80%;
+        margin: 1rem;
+    }
+
+    .container{
+        display: flex;
+         flex-direction: column;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 90%;
+    }
+
+    .mapouter {
+        /* position:relative; */
+        /* text-align:right; */
+        /* height:500px; */
+        width:100px;
+        
+    }
+}
