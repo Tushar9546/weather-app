@@ -3,6 +3,9 @@
 - Here you can search weather through city name
 - It will show tempratue ,wind speed, cloud, humidity or location on map
 
+<h2>Live link</h2>
+  <li>https://admirable-fairy-d246a4.netlify.app/</li>
+
 
 ![Screenshot (759)](https://user-images.githubusercontent.com/104217869/192104641-08af1275-c8f5-4ded-a60d-938674fdc3c5.png)
 
